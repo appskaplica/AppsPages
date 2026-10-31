@@ -6,10 +6,10 @@ Her uygulama kendi klasöründedir:
 
 | Uygulama | Sayfa | Adres |
 |---|---|---|
-| WaterTracker | Gizlilik Politikası | https://appskaplica.github.io/AppsPages/watertracker/privacy.html |
-| WaterTracker | Destek | https://appskaplica.github.io/AppsPages/watertracker/support.html |
+| Unda Water Tracker | Gizlilik Politikası | https://appskaplica.github.io/AppsPages/watertracker/privacy.html |
+| Unda Water Tracker | Destek | https://appskaplica.github.io/AppsPages/watertracker/support.html |
 
-## WaterTracker
+## Unda Water Tracker
 
 Sayfalar uygulamanın 12 dilinde (`tr en de es fr it pt-BR ru ar zh-Hans ja ko`) `watertracker/<dil>/privacy.html` ve `watertracker/<dil>/support.html` olarak bulunur. `watertracker/privacy.html` ve `watertracker/support.html` tarayıcı diline göre ilgili sayfaya yönlendirir.
 
