@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cullo – Privacy Policy</title>
+<script>
+(function () {
+  var codes = ['tr', 'en', 'de', 'es'];
+  var prefs = navigator.languages || [navigator.language || "en"];
+  for (var i = 0; i < prefs.length; i++) {
+    var p = prefs[i].toLowerCase();
+    for (var j = 0; j < codes.length; j++) {
+      var c = codes[j].toLowerCase();
+      if (p === c || p.split("-")[0] === c.split("-")[0]) { location.replace(codes[j] + "/privacy.html"); return; }
+    }
+  }
+  location.replace("en/privacy.html");
+})();
+</script>
+<style>
+  body { font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 720px; margin: 0 auto; padding: 24px 16px; color: #1c1c1e; background: #fff; }
+  h1 { font-size: 1.6em; } h2 { font-size: 1.2em; margin-top: 1.6em; } h3 { font-size: 1em; margin: 1.4em 0 .2em; }
+  nav, footer { font-size: .9em; color: #6e6e73; } nav a, footer a { margin-inline-end: .8em; white-space: nowrap; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #ddd; }
+  @media (prefers-color-scheme: dark) { body { color: #f2f2f7; background: #000; } a { color: #64b5ff; } nav, footer { color: #98989d; } footer { border-color: #333; } }
+</style>
+</head>
+<body>
+<h1>Cullo</h1>
+<ul>
+  <li><a href="tr/privacy.html" hreflang="tr" lang="tr">Türkçe – Gizlilik Politikası</a></li>
+  <li><a href="en/privacy.html" hreflang="en" lang="en">English – Privacy Policy</a></li>
+  <li><a href="de/privacy.html" hreflang="de" lang="de">Deutsch – Datenschutzerklärung</a></li>
+  <li><a href="es/privacy.html" hreflang="es" lang="es">Español – Política de privacidad</a></li>
+</ul>
+</body>
+</html>
